@@ -1,0 +1,169 @@
+$main-color: #0536FC
+
+body
+    font-family: 'Basis Grotesque Pro', 'Raleway', sans-serif
+    font-size: 16px
+    color: black
+    line-height: 1.5
+    letter-spacing: -0.03em
+    width: 100%
+    background: white
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+p
+    margin: 0
+    padding: 0
+
+h2
+    margin: 0
+    padding: 0
+
+h3 
+    margin: 0
+    padding: 0
+
+.main-container
+    max-width: 1440px
+    margin: 0 auto
+
+.section
+    padding: 150px 0
+    
+.section-tag
+    color: $main-color
+    margin-bottom: 30px
+    font-weight: 700
+    text-transform: uppercase
+
+.section-title
+    font-size: 2.25em
+    line-height: 1.1
+    font-weight: 700
+    text-transform: uppercase
+    padding-bottom: 1.8em
+
+.small-heading
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 1.5
+
+.regular-text
+    opacity: 0.6
+
+.minor-text
+    opacity: 0.35
+    margin-bottom: 6px
+
+.support-header
+    padding-left: 14.58%
+
+    &__title
+        max-width: 550px
+
+.support-faq 
+    max-width: 456px
+    margin-right: 14.86%
+    margin-left: auto
+
+.faq-element
+    border-top: 1px solid #D9D9D9
+
+.faq-question
+    border: none
+    background-color: white
+    width: 100%
+    text-align: left
+    padding: 30px 0
+    outline: none
+    cursor: pointer
+    
+    &__label
+        max-width: 300px
+        display: inline-block
+
+        @media (max-width: 400px)
+            max-width: 220px
+
+
+        &--first
+            max-width: 365px
+
+            @media (max-width: 400px)
+            max-width: 250px
+
+    &::after
+        content: '+'
+        line-height: 1
+        font-size: 24px
+        color: $main-color
+        float: right
+        margin: 0 0 auto auto
+        
+.active
+    content: '–'
+    font-size: 24px
+    color: black
+    float: right
+    margin: 0 0 auto auto
+
+
+.faq-answer
+    padding: 40px auto 70px 0px
+    display: none
+
+
+@media (max-width: 1024px)
+
+    .minor-text
+        display: none
+
+@media (max-width: 740px)
+
+    .section-title
+        font-size: 1.8em
+
+@media (max-width: 646px)
+
+    .main-container 
+        padding: 0 5%
+
+    .section
+        margin: 75 0
+
+    .support-header
+        padding-left: 0
+        padding-right: 0
+        margin-left: auto
+        margin-right: auto
+
+    .support-faq
+        padding-left: 0
+        margin-left: auto
+        margin-right: auto
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
